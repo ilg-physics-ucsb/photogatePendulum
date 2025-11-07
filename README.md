@@ -46,7 +46,7 @@ This repository should hold everything related to the photgates made by the ILG 
 * 1x [6in 1/4-20 mounting rod](https://www.mcmaster.com/97042A268/)
 
 
+**Creating the PCB**
 
-
-
+The heart of the photogate is its PCB housing all of the internal circuitry, all of which is housed on a PCB made to fit the case. All of the schematic and PCB design files can be found in a KiCAD oproject found [here](/Hardware/Circuit/photogatePendulumKiCAD/20AL_Pendulum_Photogate.kicad_pro). You can export the PCB design to a gerber file from here and send to a PCB manufacturer, or the baord has been designed to be able to be milled on a single sided PCB blank. To mill out the PCB you will need to export the edge cuts and bottom layer gerber files and the drill excellon file and then convert these to g-code. There is already a compiled g-code version of the scematic found [here](). This gcode was designed for use on our Bantam desktop milling machine, with a 1/32th in. flat end mill as the cutting tool. In formation on how to use this machine can be found [here](https://gaugeboson.physics.ucsb.edu/wiki/equipment/makerspace/cnc-machine/). Using this machine you can then cut out the PCB from the single sided PCB blank. The following is an image of the final PCB. 
 
