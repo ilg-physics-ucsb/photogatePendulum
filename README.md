@@ -48,5 +48,31 @@ This repository should hold everything related to the photgates made by the ILG 
 
 **Creating the PCB**
 
-The heart of the photogate is its PCB housing all of the internal circuitry, all of which is housed on a PCB made to fit the case. All of the schematic and PCB design files can be found in a KiCAD oproject found [here](/Hardware/Circuit/photogatePendulumKiCAD/20AL_Pendulum_Photogate.kicad_pro). You can export the PCB design to a gerber file from here and send to a PCB manufacturer, or the baord has been designed to be able to be milled on a single sided PCB blank. To mill out the PCB you will need to export the edge cuts and bottom layer gerber files and the drill excellon file and then convert these to g-code. There is already a compiled g-code version of the scematic found [here](). This gcode was designed for use on our Bantam desktop milling machine, with a 1/32th in. flat end mill as the cutting tool. In formation on how to use this machine can be found [here](https://gaugeboson.physics.ucsb.edu/wiki/equipment/makerspace/cnc-machine/). Using this machine you can then cut out the PCB from the single sided PCB blank. The following is an image of the final PCB. 
+The heart of the photogate is its PCB housing all of the internal circuitry, all of which is housed on a PCB made to fit the case. All of the schematic and PCB design files can be found in a KiCAD oproject found [here](/Hardware/Circuit/photogatePendulumKiCAD/20AL_Pendulum_Photogate.kicad_pro). You can export the PCB design to a gerber file from here and send to a PCB manufacturer, or the baord has been designed to be able to be milled on a single sided PCB blank. To mill out the PCB you will need to export the edge cuts and bottom layer gerber files and the drill excellon file and then convert these to g-code. There is already a compiled g-code version of the scematic found [here](). This gcode was designed for use on our Bantam desktop milling machine, with a 1/32th in. flat end mill as the cutting tool. In formation on how to use this machine can be found [here](https://gaugeboson.physics.ucsb.edu/wiki/equipment/makerspace/cnc-machine/). Using this machine you can then cut out the PCB from the single sided PCB blank. The following is an image of the final PCB. The PCB May have some rough edges, leftover dust, or the copper may not have come off cleanly so there could be some post processing needed before soldering. You should use scotch brite to rub the surface and sides to get any excess dust and copper bits off. If the edges look rough you may also want to use a de-burring tool on them. 
+
+**Soldering the Circuit**
+
+The components are laid very densly in the PCB and in non standard orientations so here are some directions for how to best get this board together. Before you start soldering also make sure the surface has not tarnished from sitting for too long. If it is tarnished the solder wont stick well, so you will need to buff out the tarnish with some scotch brite before you begin. 
+
+* You should first start soldering all the components that lay flat on the board. These include the 0 ohm resistors (wires) and the horizontally laid resistors. Also make sure to clip the excess leads off of all the components between each step as these will not fit in the case. 
+
+* Next you should put on the IR LED and phototransistor. These sit at a right angle anf flush with the board so you will have to bend them into shape first before soldering. It is very important to get the wires off the back as flush with the PCB as possible.
+
+* Next the capacitors should be soldered in. 
+
+* The switch and the diode should be soldering in next. 
+
+* The transistors should be soldered in next, being careful of which ones are NPN vs PNP as well as which direction they face. 
+
+* Next you should solder in the last of the reistors. The transistors already in should make it easier to do this. Parts of the PCB are very desne though so you may still have to clip the leads partway through just to access the rest of the leads you need to solder in. 
+
+* The 8 pin DIP socket comes next, you may need tape to hold it in place though. Make sure that pin 1 is facing the correct direct when installing the socket. 
+
+* Next up is the Itsy Bitsy. The holes for the headers are a bit tight so you should solder the headers onto the itsy bitsy while they are already in the holes on the PCB. 
+
+* Lastly is the Blue LED. This must be set up above the PCB slightly so that it is flush with the top of the case. 
+
+After you are finished soldering you should plug it in to make sure the photogate works correctly before flashing the code. I often forget to install the LM358 into the IC socket so if it is not working first check that. If it is not working and that is not the problem then you should check your solder joints to make sure there isnt any bridging, or for any stray strands of copper eftover from milling. 
+
+**Flashing the Code**
 
