@@ -487,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/photogate/",
+      "plot": "../photogatePendulumGerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "D:/Photogate/20AL_Pendulum_Photogate_PCB.step",
