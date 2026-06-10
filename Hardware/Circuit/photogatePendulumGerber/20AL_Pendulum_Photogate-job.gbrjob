@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-11-19T10:52:48-08:00"
+    "CreationDate": "2026-03-13T15:36:19-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -27,14 +27,41 @@
       "PadToPad": 0.8128,
       "PadToTrack": 0.8128,
       "TrackToTrack": 0.8128,
-      "MinLineWidth": 0.508
+      "MinLineWidth": 0.508,
+      "TrackToRegion": 0.8128,
+      "RegionToRegion": 0.8128
     }
   ],
   "FilesAttributes": [
     {
+      "Path": "20AL_Pendulum_Photogate-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "20AL_Pendulum_Photogate-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "20AL_Pendulum_Photogate-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "20AL_Pendulum_Photogate-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "20AL_Pendulum_Photogate-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "20AL_Pendulum_Photogate-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "20AL_Pendulum_Photogate-Edge_Cuts.gbr",
