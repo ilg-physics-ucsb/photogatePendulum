@@ -11,7 +11,6 @@ This repository should hold everything related to the photgates made by the ILG 
 * 1x [LM358 Op Amp DIP-8](https://www.digikey.com/en/products/detail/texas-instruments/LM358P/277042)
 * **Transistors**
 * 6x [2N3904 NPN BJT](https://www.digikey.com/en/products/detail/diotec-semiconductor/2N3904/13164701)
-* 1x [2N3906 PNP BJT](https://www.digikey.com/en/products/detail/diotec-semiconductor/2N3906/22191309)
 * 1x [Phototransistor 3mm](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW85A/4071264?s=N4IgTCBcDaIEIAUDqAOArAQRAXQL5A)
 * **Diodes**
 * 1x [IR LED 5mm](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSHF6210/4073549)
