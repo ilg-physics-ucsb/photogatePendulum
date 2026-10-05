@@ -18,7 +18,6 @@ This repository should hold everything related to the photgates made by the ILG 
 * 1x [1N4148 Diode](https://www.digikey.com/en/products/detail/onsemi/1N4148/458603)
 * **Capacitors**
 * 5x [1nF](https://www.digikey.com/en/products/detail/kemet/R82EC1100SH50J/5141859)
-* 1x [4.7nF](https://www.digikey.com/en/products/detail/kemet/R82EC1470AA50J/2571340)
 * 1x [10nF](https://www.digikey.com/en/products/detail/kemet/R82EC2100AA50J/2571307)
 * **Resistors**
 * 3x [220Ω](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346) 
