@@ -21,17 +21,13 @@ This repository should hold everything related to the photgates made by the ILG 
 * 1x [10nF](https://www.digikey.com/en/products/detail/kemet/R82EC2100AA50J/2571307)
 * **Resistors**
 * 3x [220Ω](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346) 
-* 1x [360Ω](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT360R/1741406) 
 * 1x [1kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314) 
-* 1x [1.2kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K20/1741238) 
 * 2x [2.2kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321)
 * 9x [10kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265)
 * 2x [22kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT22K0/1741350)
-* 1x [33kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT33K0/1741403)
-* 2x [47kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT47K0/1741444)
 * 3x [100kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT100K/1741263)
 * 1x [220kΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220K/1741348)
-* 1x [1MΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1M00/1741316) 
+* 2x [1MΩ](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1M00/1741316) 
 * **Tactile**
 * 1x [Slide Switch SPDT H6mm](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SLW-1298856-5A-RA-N-D/24399327)
 * **Hardware**
